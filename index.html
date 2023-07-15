@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>SIDDHARTH</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+            Welcome to my portfolio website! I am currently pursuing my Bachelor
+            of Computer Applications (BCA) and I'm passionate about exploring the
+            exciting world of technology. With a strong foundation in computer
+            science and a thirst for knowledge, I am dedicated to honing my skills
+            and making a positive impact in the field.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+          Throughout my academic journey, I have gained valuable experience in
+          various programming languages, software development methodologies, and
+          problem-solving techniques. My coursework has equipped me with a solid
+          understanding of database management systems, data structures, web
+          development, and object-oriented programming. I have also been actively
+          involved in projects and assignments that have allowed me to apply
+          theoretical concepts to real-world scenarios.
+      </p><br />
+          <p>
+              In addition to my technical skills, I am a quick learner and a proactive
+              team player. I enjoy collaborating with others to brainstorm innovative
+              ideas and contribute to the success of a project. I believe in
+              continuous learning and staying up-to-date with the latest advancements
+              in technology.
+          </p>
+
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+         
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />]
+          <h3>Celsius to Fahrenheit converter</h3>
+          <details>
+              <su class="project-title">Celsius to Fahrenheit converter</su>
+              <p class="project-details">
+                  A Celsius to Fahrenheit converter is a tool or program that allows you to easily convert temperatures measured in degrees Celsius to degrees Fahrenheit. It is a useful tool for individuals who are more familiar with the Fahrenheit scale or need to convert temperature values from Celsius to Fahrenheit for various purposes.
+
+                  The converter works based on a simple mathematical formula that converts a temperature from Celsius to Fahrenheit. The formula is as follows:
+
+                  °F = (°C × 9/5) + 32
+
+                  In this formula, °C represents the temperature in Celsius, and °F represents the temperature in Fahrenheit. By plugging in the value of the temperature in Celsius into this formula, you can calculate the equivalent temperature in Fahrenheit.
+
+                  When using your Celsius to Fahrenheit converter, users would typically input a temperature in degrees Celsius, either through a graphical user interface or by entering the value into a text box. The converter would then perform the necessary calculations using the formula mentioned above and display the converted temperature in degrees Fahrenheit.
+
+                  Additionally, a well-designed converter may include additional features such as the ability to convert multiple temperatures at once, round the converted values to a specific decimal place, or provide a history of previous conversions for reference.
+
+                  By using a Celsius to Fahrenheit converter, individuals can quickly and accurately convert temperatures between the Celsius and Fahrenheit scales without the need for manual calculations. It simplifies the process and ensures that temperature conversions are done correctly, saving time and reducing the chances of errors.
+
+
+
+
+
+              </p>
+
+          </details>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Netflix Clone</h3>
+          <details>
+              <summary>Deatil</summary>
+              <p class="project-details">
+                  AnNetflix" is a cutting-edge streaming platform that offers a vast collection of movies, TV shows, documentaries, and original content for entertainment enthusiasts worldwide. With an intuitive interface and a seamless user experience, AnNetflix provides a comprehensive entertainment hub that caters to a diverse range of interests and preferences.
+
+                  One of the key features of AnNetflix is its extensive library of content. Users can access an impressive catalog of movies spanning various genres, including action, comedy, drama, romance, sci-fi, and more. The platform also offers a wide selection of TV shows from popular series to cult classics, ensuring there is always something for everyone.
+              </p>
+          </details>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="#" target="_blank"
+          >Borisagar Siddharth</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
